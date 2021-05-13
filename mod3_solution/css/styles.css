@@ -5,6 +5,7 @@ article {
   height: 700px;
   position: relative;
   border: 5px solid white;
+  overflow: hidden;
 }
 
 #Chicken{
