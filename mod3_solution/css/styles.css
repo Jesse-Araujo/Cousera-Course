@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+}
+article {
+  height: 700px;
+  position: relative;
+  border: 5px solid white;
+}
+
+#Chicken{
+  background-color: #E27D60;
+}
+#Beef{
+  background-color: #C38D9E;
+}
+#Sushi{
+  background-color: #242582;
+  color: white;
+}

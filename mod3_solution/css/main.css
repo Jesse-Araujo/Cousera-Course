@@ -11,14 +11,18 @@ p {
   clear: right;
 }
 
-.titulo {
+#conteiner {
   position: relative;
+}
+
+.titulo {
   float: right;
   text-align: center;
   width: 100px;
   border: 1px solid black;
   margin-top: 0;
   margin-left: 0;
+  overflow: hidden;
 }
 
 #chicken {
