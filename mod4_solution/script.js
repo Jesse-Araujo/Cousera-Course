@@ -63,7 +63,7 @@ WARNING!!! WARNING!!!
     if ( firstLetter === 'j') {
       p += `<p style="background-color: gray; color: yellow; max-width: 200px; text-align: center;">${byeSpeaker.speak(names[i])} 👋🏽</p>`
     } else {
-      p += `<p style="background-color: aqua; color: black; max-width: 200px; text-align: center;">${byeSpeaker.speak(names[i])} 🎉</p>`;
+      p += `<p style="background-color: aqua; color: black; max-width: 200px; text-align: center;">${helloSpeaker.speak(names[i])} 🎉</p>`;
     }
   }
   document.getElementById("result").innerHTML = p;
